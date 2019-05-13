@@ -1,21 +1,47 @@
+var names = ['Fawn','Terina', 'Faviola', 'Maxwell', 'Lanie', 'Elfreda', 'Yu', 'Dinah', 'Kathi',
+ 'Karmen', 'Celia', 'Annelle', 'inifred', 'Barbara', 'Ashanti', 'Roxie', 'Felice',
+  'Calvin', 'Ingeborg', 'Adrian']
+
+
 class leerling{
-    constructor (name, wiskunde, biologie, engels, gym) {
-    this.name =name;
-    this.wiskunde = wiskunde;
-    this.biologie = biologie;
-    this.engels =  engels;
-    this.gym = gym;     
+    constructor (names) {
+    // this.name =names[Math.floor(Math.random() * names.length)];
+    this.name = ('iets' ); //names(1);
+    this.wiskunde = Math.floor(Math.random() * 10);
+    this.biologie = Math.floor(Math.random() * 10);
+    this.engels =  Math.floor(Math.random() * 10);
+    this.gym = Math.floor(Math.random() * 10);  
 }
 }
 
-let leerling1 = new leerling('Suus',  5, 8, 6, 7);
-let leerling2 = new leerling('Kees',  6, 7, 9, 3);
-let leerling3 = new leerling('Bep',   7, 3, 6, 7) ;
-let leerling4 = new leerling('Koos',  7, 3, 6, 8) ;
-let leerling5 = new leerling('Erik',  7, 3, 6, 8) ;
-let leerling6 = new leerling('Tim',   7, 3, 6, 6) ;
+let leerling1 = new leerling;
+let leerling2 = new leerling('Kees');
+let leerling3 = new leerling('Berta');
+let leerling4 = new leerling('Koos');
+let leerling5 = new leerling('Erik');
+let leerling6 = new leerling('Albert');
 
-console.log(leerling1, name, engels);
+
+
+
+
+
+let mijnklas = [leerling1, leerling2, leerling3];
+
+mijnklas.push(leerling4, leerling5, leerling6);
+
+console.log(mijnklas);
+
+
+
+
+
+
+
+
+
+
+// console.log(leerling3.name, leerling3.wiskunde, leerling3.biologie, leerling1.engels, leerling3.gym);
 
 
 
