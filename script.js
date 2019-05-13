@@ -6,10 +6,14 @@ var words = ['Fawn','Terina', 'Faviola', 'Maxwell', 'Lanie', 'Elfreda', 'Yu', 'D
 class leerling{
     constructor (name) {
     this.name = words[Math.floor(Math.random() * words.length)];
-    this.wiskunde = Math.floor(Math.random() * 10);
-    this.biologie = Math.floor(Math.random() * 10);
-    this.engels =  Math.floor(Math.random() * 10);
-    this.gym = Math.floor(Math.random() * 10);  
+    this.wiskunde       = Math.floor(Math.random() * 10);
+    this.biologie       = Math.floor(Math.random() * 10);
+    this.engels         = Math.floor(Math.random() * 10);
+    this.gym            = Math.floor(Math.random() * 10);
+    this.nederlands     = Math.floor(Math.random() * 10);
+    this.duits          = Math.floor(Math.random() * 10); 
+    this.scheikunde     = Math.floor(Math.random() * 10); 
+
 }
 }
 
@@ -20,19 +24,11 @@ let leerling4 = new leerling;
 let leerling5 = new leerling;
 let leerling6 = new leerling;
 
-
-
-
-
-
 let mijnklas = [leerling1, leerling2, leerling3];
 
 mijnklas.push(leerling4, leerling5, leerling6);
 
 console.log(mijnklas);
-
-
-
 
 
 
