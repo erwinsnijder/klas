@@ -1,12 +1,11 @@
-var names = ['Fawn','Terina', 'Faviola', 'Maxwell', 'Lanie', 'Elfreda', 'Yu', 'Dinah', 'Kathi',
+var words = ['Fawn','Terina', 'Faviola', 'Maxwell', 'Lanie', 'Elfreda', 'Yu', 'Dinah', 'Kathi',
  'Karmen', 'Celia', 'Annelle', 'inifred', 'Barbara', 'Ashanti', 'Roxie', 'Felice',
-  'Calvin', 'Ingeborg', 'Adrian']
+  'Calvin', 'Ingeborg', 'Adrian', 'Kees','Berta', 'Koos', 'Erik', 'Albert']
 
 
 class leerling{
-    constructor (names) {
-    // this.name =names[Math.floor(Math.random() * names.length)];
-    this.name = ('iets' ); //names(1);
+    constructor (name) {
+    this.name = words[Math.floor(Math.random() * words.length)];
     this.wiskunde = Math.floor(Math.random() * 10);
     this.biologie = Math.floor(Math.random() * 10);
     this.engels =  Math.floor(Math.random() * 10);
@@ -15,11 +14,11 @@ class leerling{
 }
 
 let leerling1 = new leerling;
-let leerling2 = new leerling('Kees');
-let leerling3 = new leerling('Berta');
-let leerling4 = new leerling('Koos');
-let leerling5 = new leerling('Erik');
-let leerling6 = new leerling('Albert');
+let leerling2 = new leerling;
+let leerling3 = new leerling;
+let leerling4 = new leerling;
+let leerling5 = new leerling;
+let leerling6 = new leerling;
 
 
 
@@ -41,7 +40,7 @@ console.log(mijnklas);
 
 
 
-// console.log(leerling3.name, leerling3.wiskunde, leerling3.biologie, leerling1.engels, leerling3.gym);
+
 
 
 
