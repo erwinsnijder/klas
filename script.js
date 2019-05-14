@@ -4,8 +4,8 @@ var words = ['Fawn','Terina', 'Faviola', 'Maxwell', 'Lanie', 'Elfreda', 'Yu', 'D
 
 
 class leerling{
-    constructor (name) {
-    this.name = words[Math.floor(Math.random() * words.length)];
+    constructor () {
+    this.anaam = words[Math.floor(Math.random() * words.length)];
     this.wiskunde       = Math.floor(Math.random() * 10);
     this.biologie       = Math.floor(Math.random() * 10);
     this.engels         = Math.floor(Math.random() * 10);
@@ -13,20 +13,28 @@ class leerling{
     this.nederlands     = Math.floor(Math.random() * 10);
     this.duits          = Math.floor(Math.random() * 10); 
     this.scheikunde     = Math.floor(Math.random() * 10); 
-
+    this.gemiddelde     =0;
 }
 }
 
-let leerling1 = new leerling;
-let leerling2 = new leerling;
-let leerling3 = new leerling;
-let leerling4 = new leerling;
-let leerling5 = new leerling;
-let leerling6 = new leerling;
+let leerling1  = new  leerling;
+let leerling2  = new  leerling;
+let leerling3  = new  leerling;
+let leerling4  = new  leerling;
+let leerling5  = new  leerling;
+let leerling6  = new  leerling;
+let leerling7  = new  leerling;
+let leerling8  = new  leerling;
+let leerling9  = new  leerling;
+let leerling10 = new  leerling;
+
+
+
+
 
 let mijnklas = [leerling1, leerling2, leerling3];
 
-mijnklas.push(leerling4, leerling5, leerling6);
+mijnklas.push(leerling4, leerling5, leerling6, leerling7, leerling8, leerling9, leerling10);
 
 console.log(mijnklas);
 
