@@ -32,13 +32,14 @@ let mijnklas = [leerling1, leerling2, leerling3];
 mijnklas.push(leerling4, leerling5, leerling6, leerling7, leerling8, leerling9, leerling10);
 
    for (var x=0; x < mijnklas.length; x++) {
-//     console.log (mijnklas[x]);
-//    }  
+  
  
        function myFunction() {
             document.getElementById("cijfers").innerHTML = (mijnklas);
     }
 }
+//     console.log (mijnklas[x]);
+//    }
 //    for (let leerling in mijnklas) {
 //     function myFunction() {
 //     document.getElementById("cijfers").innerHTML = (leerling);
