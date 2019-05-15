@@ -5,7 +5,7 @@ var words = ['Fawn','Terina', 'Faviola', 'Maxwell', 'Lanie', 'Elfreda', 'Yu', 'D
 
 class leerling{
     constructor () {
-    this.anaam = words[Math.floor(Math.random() * words.length)];
+    this.anaam          = words[Math.floor(Math.random() * words.length)];
     this.wiskunde       = Math.floor(Math.random() * 10);
     this.biologie       = Math.floor(Math.random() * 10);
     this.engels         = Math.floor(Math.random() * 10);
@@ -38,87 +38,6 @@ mijnklas.push(leerling4, leerling5, leerling6, leerling7, leerling8, leerling9, 
 
 console.log(mijnklas);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // }
-
-// class leerling {
-//     constructor(name, wiskunde, biologie, engelsl) {
-//         this.name = Suus;
-//         this.wiskunde = 8;
-//         this.biologie = 6;
-//         this.engels =   5;
-//     }
-// }
-
-// class leerling {
-//     constructor(name, wiskunde, biologie, engels) {
-//         this.name = Erik;
-//         this.wiskunde = 6;
-//         this.biologie = 7;
-//         this.engels =   8;
-//     }
-// }
-// class leerling {
-//     constructor(name, wiskunde, biologie, engels) {
-//         this.name = Wim;
-//         this.wiskunde = 3;
-//         this.biologie = 8;
-//         this.engels =   6;
-//     }
-// }
-// class leerling {
-//     constructor(name, wiskunde, biologie, engels) {
-//         this.name = Kees;
-//         this.wiskunde = 5;
-//         this.biologie = 6;
-//         this.engels =   7;
-//     }
-// }
-// class leerling {
-//     constructor(name, wiskunde, biologie, engels) {
-//         this.name = Kor;
-//         this.wiskunde = 7;
-//         this.biologie = 5;
-//         this.engels =   4;
-//     }
-// }
-// class leerling {
-//     constructor(name, wiskunde, biologie, engels) {
-//         this.name = Bep;
-//         this.wiskunde = 7;
-//         this.biologie = 5;
-//         this.engels =   4;
-//     }
-// }
-
-
+        function myFunction() {
+            document.getElementById("cijfers").innerHTML = (mijnklas);
+    }
